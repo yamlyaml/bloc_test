@@ -1,9 +1,9 @@
-class CounterStates{
+class CounterStates {
   int counter;
 
   CounterStates({required this.counter});
 }
 
-class InitialState extends CounterStates{
-  InitialState():super(counter: 0);
+class InitialState extends CounterStates {
+  InitialState() : super(counter: 0);
 }

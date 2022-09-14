@@ -30,7 +30,7 @@ class App extends StatelessWidget {
             title: Text('Page1'),
             centerTitle: true,
           ),
-          body: TempPage(),
+          body: CountPage(),
         ),
       ),
     );

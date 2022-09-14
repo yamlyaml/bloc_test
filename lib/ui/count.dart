@@ -7,8 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'homework.dart';
 
-class TempPage extends StatelessWidget {
-  const TempPage({Key? key}) : super(key: key);
+class CountPage extends StatelessWidget {
+  const CountPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class TempPage extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () =>
-                      BlocProvider.of<CounterBlocs>(context).add(Decrement()),
+                     BlocProvider.of<CounterBlocs>(context).add(Decrement()),
                   child: Icon(Icons.remove),
                 ),
                 ElevatedButton(
@@ -39,7 +39,7 @@ class TempPage extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => HomeWidget(),
+                            builder: (context) => HomeWork(),
                           ));
                     },
                     child: Icon(Icons.refresh)),

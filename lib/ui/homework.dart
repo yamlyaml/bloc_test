@@ -8,14 +8,14 @@ import '../state/homework_state.dart';
 
 final List<int> colorIndex = [300, 400, 500, 600, 700, 800];
 
-class HomeWidget extends StatefulWidget {
-  const HomeWidget({Key? key}) : super(key: key);
+class HomeWork extends StatefulWidget {
+  const HomeWork({Key? key}) : super(key: key);
 
   @override
-  State<HomeWidget> createState() => _HomeWidgetState();
+  State<HomeWork> createState() => _HomeWorkState();
 }
 
-class _HomeWidgetState extends State<HomeWidget> {
+class _HomeWorkState extends State<HomeWork> {
   @override
   Widget build(BuildContext context) {
     double mediaQueryHeight = MediaQuery.of(context).size.height;
